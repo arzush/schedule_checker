@@ -59,11 +59,11 @@ requirements.txt - Зависимости проекта
 
 ## Источник расписания
 
-Проект получает данные по URL:
-https://ofc-test-01.tspb.su/test-task/
+Проект получает данные из: [ссылка](https://ofc-test-01.tspb.su/test-task/)
+
 
 ## Ожидается структура:
-
+```bash
 {
   "days": [
     { "id": 1, "date": "2025-07-11", "start": "09:00", "end": "17:00" },
@@ -74,3 +74,4 @@ https://ofc-test-01.tspb.su/test-task/
     ...
   ]
 }
+```
